@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Kate's Crochet Corner</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous"
+    />
+
+    <style>
+        .product-img {
+        transition: transform 0.3s ease-in-out;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        }
+
+        .product-img:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        }
+
+        .product-card {
+        margin-bottom: 30px;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-5 fw-bold">Our Products</h1>
+    
+        <div class="row">
+            
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Sunflower_cow.jpg" class="img-fluid product-img rounded" alt="Product 1">
+                <h5 class="mt-3">Sunflower Cow</h5>
+                <p class="text-muted">R800</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Strawberry_triceratops.jpg" class="img-fluid product-img rounded" alt="Product 2">
+                <h5 class="mt-3">Strawberry Triceratops</h5>
+                <p class="text-muted">R850</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Strawberry_bulbasaur.jpg" class="img-fluid product-img rounded" alt="Product 3">
+                <h5 class="mt-3">Strawberry Bulbasaur</h5>
+                <p class="text-muted">R1000</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Sunhat_duck.jpg" class="img-fluid product-img rounded" alt="Product 4">
+                <h5 class="mt-3">Sun hat Duck</h5>
+                <p class="text-muted">R700</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Totoro.jpg" class="img-fluid product-img rounded" alt="Product 5">
+                <h5 class="mt-3">Totoro</h5>
+                <p class="text-muted">R750</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Axolotl.jpg" class="img-fluid product-img rounded" alt="Product 6">
+                <h5 class="mt-3">Axolotl</h5>
+                <p class="text-muted">R600</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Purple_dinosaur.jpg" class="img-fluid product-img rounded" alt="Product 7">
+                <h5 class="mt-3">Purple Dinosaur</h5>
+                <p class="text-muted">R650</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/lil_frog.jpg" class="img-fluid product-img rounded" alt="Product 8">
+                <h5 class="mt-3">Little Frog</h5>
+                <p class="text-muted">R500</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Star_otter.jpg" class="img-fluid product-img rounded" alt="Product 9">
+                <h5 class="mt-3">Star Otter</h5>
+                <p class="text-muted">R650</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 product-card">
+                <img src="images/Bunny.jpg" class="img-fluid product-img rounded" alt="Product 10">
+                <h5 class="mt-3">Bunny</h5>
+                <p class="text-muted">R700</p>  
+                <button class="btn btn-primary">Buy</button> 
+            </div>
+
+        </div>
+
+        <footer class="lg-light py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    
+                    <div class="col-md-2 text-center text-md-start mb-4 mb-mb-0">
+                        <img src="images/Logo.jpg" alt="Company Logo" class="img-fluid rounded-circle shadow">
+                    </div>
+
+                    <div class="col-md-10">
+                        <h4 class="mb-3">Join our newsletter</h4>
+                        <form class="row g-3">
+                            <div class="col-md-5">
+                                <label for="inputName" class="visually-hidden">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+                            </div>
+                            <div class="col-md-5">
+                                <label for="inputEmail" class="visually-hidden">Email</label>
+                                <input type="text" class="form-control" id="inputEmail" placeholder="Email Address">
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-success w-100">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+            crossorigin="anonymous">
+        </script>
+</body>
+</html>
